@@ -1,0 +1,17 @@
+{
+  "name": "starter-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "tsc-es2015": "tsc src/index.ts --outDir dist --target ES2015"
+  },
+  "author": "",
+  "license": "MIT"
+}
